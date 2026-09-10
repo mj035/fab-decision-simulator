@@ -1,0 +1,59 @@
+{
+  "n_row": 60000,
+  "n_feat": 170,
+  "n_pos": 1000,
+  "pos_rate": 0.0167,
+  "oof_auc": 0.9873,
+  "cost_C_FP": 10.0,
+  "official_ratio": 50,
+  "nested_cv": {
+    "2": {
+      "strategy": "선별검사",
+      "save_pct": 60.0,
+      "detect_pct": 76.8,
+      "overkill_pct": 0.6,
+      "th_mean": 0.936,
+      "cost": 8000.0
+    },
+    "5": {
+      "strategy": "선별검사",
+      "save_pct": 74.1,
+      "detect_pct": 86.5,
+      "overkill_pct": 1.1,
+      "th_mean": 0.871,
+      "cost": 12970.0
+    },
+    "10": {
+      "strategy": "선별검사",
+      "save_pct": 80.8,
+      "detect_pct": 90.9,
+      "overkill_pct": 1.7,
+      "th_mean": 0.749,
+      "cost": 19170.0
+    },
+    "20": {
+      "strategy": "선별검사",
+      "save_pct": 86.0,
+      "detect_pct": 94.0,
+      "overkill_pct": 2.7,
+      "th_mean": 0.542,
+      "cost": 28030.0
+    },
+    "30": {
+      "strategy": "선별검사",
+      "save_pct": 89.0,
+      "detect_pct": 95.5,
+      "overkill_pct": 3.3,
+      "th_mean": 0.423,
+      "cost": 32930.0
+    },
+    "50": {
+      "strategy": "선별검사",
+      "save_pct": 91.6,
+      "detect_pct": 96.0,
+      "overkill_pct": 3.7,
+      "th_mean": 0.36,
+      "cost": 41760.0
+    }
+  }
+}

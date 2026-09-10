@@ -1,0 +1,117 @@
+{
+ "프로토콜": "nested(6 config, inner 3-fold) vs 베이스라인, 동일 코드경로·동일 50 seed. 손익분기=단조유지 규칙, 정의역 cl∈[2,64].",
+ "탐색공간": [
+  {
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 25,
+   "subsample": 0.8,
+   "subsample_freq": 1,
+   "colsample_bytree": 0.3,
+   "reg_lambda": 10.0
+  },
+  {
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 15,
+   "subsample": 0.8,
+   "subsample_freq": 1,
+   "colsample_bytree": 0.3,
+   "reg_lambda": 10.0
+  },
+  {
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 10,
+   "subsample": 0.8,
+   "subsample_freq": 1,
+   "colsample_bytree": 0.3,
+   "reg_lambda": 1.0
+  },
+  {
+   "n_estimators": 800,
+   "learning_rate": 0.01,
+   "num_leaves": 7,
+   "min_child_samples": 25,
+   "subsample": 0.8,
+   "subsample_freq": 1,
+   "colsample_bytree": 0.2,
+   "reg_lambda": 10.0
+  },
+  {
+   "n_estimators": 150,
+   "learning_rate": 0.08,
+   "num_leaves": 15,
+   "min_child_samples": 25,
+   "subsample": 0.8,
+   "subsample_freq": 1,
+   "colsample_bytree": 0.3,
+   "reg_lambda": 10.0
+  },
+  {
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "subsample": 0.8,
+   "subsample_freq": 1,
+   "colsample_bytree": 0.6,
+   "reg_lambda": 30.0
+  }
+ ],
+ "사전등록_임계": {
+  "ΔAUC": 0.02,
+  "Δ손익분기cl(주지표)": 3,
+  "Δ절감률%p": 2
+ },
+ "baseline": {
+  "auc": [
+   0.7274,
+   0.0128
+  ],
+  "save15_%": [
+   30.0,
+   3.1
+  ],
+  "손익분기_cl": null,
+  "선택된_config_분포": {
+   "0": 250,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0
+  }
+ },
+ "tuned": {
+  "auc": [
+   0.7241,
+   0.0211
+  ],
+  "save15_%": [
+   30.7,
+   2.9
+  ],
+  "손익분기_cl": 16,
+  "선택된_config_분포": {
+   "0": 38,
+   "1": 7,
+   "2": 2,
+   "3": 80,
+   "4": 15,
+   "5": 108
+  }
+ },
+ "판정": {
+  "ΔAUC": -0.0033,
+  "Δ손익분기cl": null,
+  "Δ절감률_%p": 0.7,
+  "AUC_올랐나": false,
+  "주지표_움직였나": false,
+  "시나리오": "판정보류",
+  "사전등록_대응": "주지표(손익분기 cl)가 한쪽 arm에서 **미정의** — 단조유지 조건이 정의역 내에서 성립하지 않음. 사전등록에 이 경우가 없으므로 **임의 판정하지 않고 리뷰어에게 반려**한다. (baseline=None, tuned=16)"
+ }
+}

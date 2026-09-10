@@ -1,0 +1,16 @@
+{
+ "rendered_at": "2026-07-22T00:54:14+09:00",
+ "render_code_sha256": "41d0e73b5cf1793ce32efdddbc6a8ad52b32e84f61721074ab741acad83d252a",
+ "run_manifest_sha256": "add858b3f4a8c32b4e36a4274caa318a625f4ce78aace1f23236118416053038",
+ "sources": {
+  "aggregate.json": "a20a08fd89d83f6349c0d0402229f4a1940bebf90e4c888349745a7d493acbc5",
+  "aggregate_arrays.npz": "77f3b01be448bac4ca6680090c9225abd534f5a82a6e7d341626262ea9123fb2",
+  "groups.json": "6ee68c7ccd8482b16978a1c75162c1b358c7829c16b45363935deeefbb0f9ec3",
+  "groups_contrib.npz": "fac885a4ebd90c1c27140375f124b6b7aa35724f2f33ce2557a92d2f4471b679"
+ },
+ "outputs": {
+  "fig_oof_shap_summary.png": "7488faf09cf290f50cbee4270354f648c2d905bbb44ffed1f9f93ac77e3f9fbb",
+  "fig_oof_group_summary.png": "0bb43818429dbc316e6fde925c5c69a5836aa075f1c7ef0d5c1f4ed15c3a7e14"
+ },
+ "성격": "render-only — 계산·판정 없음, 저장값 표시만"
+}

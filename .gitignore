@@ -1,0 +1,12 @@
+# 데이터 (UCI에서 내려받아 생성)
+data/*.csv
+data_aps/*
+!data_aps/.gitkeep
+# 캐시·대용량 산출물
+results/**/*.npz
+results/**/cache/
+results/cms/
+results/cms_seeds/
+__pycache__/
+*.pyc
+tmp/

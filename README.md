@@ -14,9 +14,8 @@
 
 ## 발표자료
 
-- [발표자료 (PDF)](docs/발표자료.pdf) — 브라우저에서 바로 열림
+- [발표자료 (PDF)](docs/발표자료.pdf)
 - [발표자료 (PPTX)](docs/발표자료.pptx)
-- [수치 정본 KEY_NUMBERS.md](docs/KEY_NUMBERS.md) — 모든 수치의 출처와 프로토콜, 정정 이력
 
 ## 시스템 구조
 

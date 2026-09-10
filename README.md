@@ -12,11 +12,6 @@
 
 핵심 관찰은 두 가지입니다. 비용 구조를 올바르게 파악하는 것이 모델을 교체하는 것보다 총비용에 더 크게 작용했고, AUC가 높은 모델이 운영점에서의 비용 우위를 보장하지 않았습니다.
 
-## 발표자료
-
-- [발표자료 (PDF)](docs/발표자료.pdf)
-- [발표자료 (PPTX)](docs/발표자료.pptx)
-
 ## 시스템 구조
 
 ```
@@ -113,3 +108,8 @@ fab-decision-simulator/
 
 - 코드 작성에 AI 코딩 도구를 활용했으며, 문제 정의와 검증 프로토콜 설계, 결과 판정과 정정은 직접 수행했습니다.
 - 라이선스: 코드 MIT. 데이터는 UCI Machine Learning Repository의 SECOM과 APS Failure at Scania Trucks (CC BY 4.0).
+
+## 발표자료
+
+- [발표자료 (PDF)](docs/발표자료.pdf)
+- [발표자료 (PPTX)](docs/발표자료.pptx)

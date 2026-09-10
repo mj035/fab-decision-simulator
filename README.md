@@ -58,7 +58,7 @@ OOF SHAP                  Cost Layer
 | 모델 손익분기 | cl = 16 (CI 14 ~ 16) | 단일 센서 대비 |
 | 일반화 검증 | 절감 92.9% | SCANIA APS 60,000행, 비용비 50:1 |
 
-RandomForest는 랜덤 CV에서 LightGBM보다 AUC가 높았지만, 사전등록한 walk-forward 조건을 통과하지 못해 교체를 보류했습니다. 세부 수치와 조건은 [KEY_NUMBERS.md](docs/KEY_NUMBERS.md)를 따릅니다.
+RandomForest는 랜덤 CV에서 LightGBM보다 AUC가 높았지만, 사전등록한 walk-forward 조건을 통과하지 못해 교체를 보류했습니다.
 
 프로젝트 중 철회하거나 정정한 항목도 그대로 남겼습니다. 제공 데이터의 시간 열이 일/월 파싱 오류로 손상된 것을 확인해 시간 홀드아웃 결과를 철회하고 행 순서 기준 walk-forward로 대체한 것이 대표적입니다 (`src/fix_time.py`).
 
@@ -78,7 +78,7 @@ fab-decision-simulator/
 ├── web/          # 시뮬레이터 (simulator.html, sim_final.json)
 ├── results/      # 확정 결과 JSON
 ├── figures/      # 정본 그림
-├── docs/         # 발표자료, KEY_NUMBERS, 사전등록 문서
+├── docs/         # 발표자료, 사전등록 문서
 └── data/         # 데이터 준비 안내와 변환 스크립트
 ```
 

@@ -2,10 +2,6 @@
 
 ## 반도체 공정 센서 데이터 기반 검사 정책 의사결정 시뮬레이터
 
-![시뮬레이터 화면](figures/sim_01_policy_15.png)
-
-*비용비를 입력하면 전수통과 / 전수검사 / 선별검사 중 최소 비용 전략과 최적 임계값을 제시하는 웹 시뮬레이터*
-
 ---
 
 ## 프로젝트 개요
@@ -18,8 +14,8 @@
 
 ## 발표자료
 
-- [발표자료 (PDF)](docs/발표자료.pdf)
-- [프로젝트 정리 (PDF)](docs/프로젝트_최종정리.pdf)
+- [발표자료 (PDF)](docs/발표자료.pdf) — 브라우저에서 바로 열림
+- [발표자료 (PPTX)](docs/발표자료.pptx)
 - [수치 정본 KEY_NUMBERS.md](docs/KEY_NUMBERS.md) — 모든 수치의 출처와 프로토콜, 정정 이력
 
 ## 시스템 구조
@@ -88,7 +84,7 @@ fab-decision-simulator/
 ├── web/          # 시뮬레이터 (simulator.html, sim_final.json)
 ├── results/      # 확정 결과 JSON
 ├── figures/      # 정본 그림
-├── docs/         # 발표자료, 프로젝트 정리, KEY_NUMBERS, 사전등록 문서
+├── docs/         # 발표자료, KEY_NUMBERS, 사전등록 문서
 └── data/         # 데이터 준비 안내와 변환 스크립트
 ```
 
